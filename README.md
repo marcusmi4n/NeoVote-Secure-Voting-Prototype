@@ -19,3 +19,18 @@ NeoVote is a lightweight voting system prototype simulating decentralized, tampe
 
 ## 📂 Folder Structure
 
+neovote/
+├── src/ # Rust logic
+├── web/ # Voting UI
+├── README.md
+
+## 🖥️ How to Run
+
+### Web version (static UI):
+
+```bash
+cd web
+open index.html  # or use Live Server
+
+cd src
+cargo run
