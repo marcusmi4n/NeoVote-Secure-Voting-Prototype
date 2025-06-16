@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NeoVote</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>NeoVote 🗳️</h1>
+  <p>Cast your secure, anonymous vote:</p>
+
+  <form id="vote-form">
+    <label><input type="radio" name="candidate" value="Alice" required> Alice</label><br>
+    <label><input type="radio" name="candidate" value="Bob"> Bob</label><br>
+    <label><input type="radio" name="candidate" value="Charlie"> Charlie</label><br><br>
+    
+    <button type="submit">Vote</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
